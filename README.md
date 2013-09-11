@@ -4,19 +4,7 @@ Kaikki Tiimityöskentelyopintojaksolle osallistuvat, forkatkaa ja kloonatkaa tä
 
 ## Harjoitus 1
 
-Tee uusi tiedosto repon juureen, ja laita sen nimeksi `oma.nimi.md`. Laita tiedoston sisällöksi seuraava teksti:
-
-```markdown
-# {Oma Nimi}
-
-GitHub: {GitHubin käyttäjätunnus}
-
-## Projekti
-
-Nimi: Lorem Ipsum
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat id blandit sit amet tortor.
-```
+Tee uusi tiedosto repon juureen, ja laita sen nimeksi `oma.nimi.md`. Kopioi tiedoston sisällöksi [harjoitus1-malli.md](harjoitus1-malli.md):n sisältö, mutta korvaa kaikki aaltosulkeet (`{}`).
 
 Kun olet saanut tiedoston valmiiksi:
 
@@ -24,3 +12,19 @@ Kun olet saanut tiedoston valmiiksi:
 2. Tee pysyvä muutos (commit)
 3. Julkaise pysyvä muutos GitHubiin
 4. Tee GitHubissa vetopyyntö (pull request)
+
+Kun opettaja on yhdistänyt (merged) ja sulkenut (closed) vetopyyntösi, on aika siirtyä harjoitukseen 2.
+
+## Harjoitus 2
+
+Nyt sinun tulisi vetää (pull) muiden tekemät muutokset alkuperäisestä reposta (upstreamista) forkattuun repoosi (originiin). Tee tämä tehtävä uudelleen vähän ajan päästä, kun opettaja on yhdistänyt lisää vetopyyntöjä.
+
+1. Avaa GitHub for Windowsin terminaali (tools > open a shell here).
+2. Kirjoita seuraavat komennot (URL:n voit kopioida GitHubista):
+   
+   ```shell
+   git remote add upstream https://github.com/haapajarven-ammattiopisto/tiimityoskentely-harjoitus.git
+   git pull upstream
+   ```
+   
+3. Julkaise upstreamista vetämäsi muutokset GitHubiin.
