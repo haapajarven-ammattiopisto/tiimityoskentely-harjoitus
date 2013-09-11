@@ -17,9 +17,9 @@ Kun opettaja on yhdistänyt (merged) ja sulkenut (closed) vetopyyntösi, on aika
 
 ## Harjoitus 2
 
-Nyt sinun tulisi vetää (pull) muiden tekemät muutokset alkuperäisestä reposta (upstreamista) forkattuun repoosi (originiin). Tee tämä tehtävä uudelleen vähän ajan päästä, kun opettaja on yhdistänyt lisää vetopyyntöjä.
+Nyt sinun tulisi vetää (pull) muiden tekemät muutokset alkuperäisestä reposta (upstreamistä) forkattuun repoosi (originiin). Tee tämä tehtävä uudelleen vähän ajan päästä, kun opettaja on yhdistänyt lisää muista vetopyyntöjä.
 
-1. Avaa GitHub for Windowsin terminaali (tools > open a shell here).
+1. Avaa GitHub for Windowsin komentorivi (tools > open a shell here).
 2. Kirjoita seuraavat komennot (URL:n voit kopioida GitHubista):
    
    ```shell
@@ -27,4 +27,4 @@ Nyt sinun tulisi vetää (pull) muiden tekemät muutokset alkuperäisestä repos
    git pull upstream
    ```
    
-3. Julkaise upstreamista vetämäsi muutokset GitHubiin.
+3. Julkaise upstreamistä vetämäsi muutokset GitHubiin.
