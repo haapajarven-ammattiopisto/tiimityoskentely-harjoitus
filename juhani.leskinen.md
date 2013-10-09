@@ -1,4 +1,4 @@
-# (Oma Nimi)
+# (NGU-NEUTRAL)
 
 GitHub: (GitHubin käyttäjätunnus)
 
