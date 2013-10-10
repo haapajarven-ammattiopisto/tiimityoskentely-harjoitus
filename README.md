@@ -24,7 +24,7 @@ Nyt sinun tulisi vetää (pull) muiden tekemät muutokset alkuperäisestä repos
    
    ```shell
    git remote add upstream https://github.com/haapajarven-ammattiopisto/tiimityoskentely-harjoitus.git
-   git pull upstream
+   git pull upstream master
    ```
    
 3. Julkaise upstreamistä vetämäsi muutokset GitHubiin.
