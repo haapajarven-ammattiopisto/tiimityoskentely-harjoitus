@@ -1,6 +1,6 @@
-# {Erik Pellikka}
+# Erik Pellikka
 
-GitHub: {ErikPellikka}
+GitHub: ErikPellikka
 
 ## Projekti
 
